@@ -1,0 +1,45 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  background-color: rgb(72, 122, 110, 255);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.div-start {
+  position: relative;
+  top: 10vh;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-start A {
+  text-decoration: none;
+}
+
+.div-start a h1 {
+  background-color: rgba(167, 175, 80, 255);
+  border-radius: 40px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.5);
+}
+
+.div-start a h1:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgba(167, 175, 80, 255);
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.2s;
+}
